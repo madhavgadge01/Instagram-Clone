@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".explorerActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="90dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="243dp"
+                    android:layout_marginStart="3dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ex13" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex1" />
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex12" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex3" />
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex11" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="243dp"
+                    android:layout_marginStart="3dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ex17" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex10" />
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="136dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex20" />
+
+                    <ImageView
+                        android:layout_width="136dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex8" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex19" />
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="130dp"
+                        android:layout_marginStart="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex7" />
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="130dp"
+                        android:layout_marginStart="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex14" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="260dp"
+                    android:layout_marginStart="4dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ex4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="134dp"
+                    android:layout_height="253dp"
+                    android:layout_marginStart="3dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ex2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex50" />
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex22" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="136dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex45" />
+
+                    <ImageView
+                        android:layout_width="136dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ex23" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/seachbutton"
+        android:padding="10dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/searchw" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Search With Meta AI"
+            android:textColor="@color/searchtaxt"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="unlabeled"
+        app:itemActiveIndicatorStyle="@color/black"
+        app:menu="@menu/bottom_menu" />
+</FrameLayout>

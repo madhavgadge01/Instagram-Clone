@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Instagram" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Disable automatic dark mode -->
+
+        <!-- Customize your light theme here if needed -->
+        <!-- <item name="colorPrimary">@color/your_primary</item> -->
+    </style>
+</resources>
