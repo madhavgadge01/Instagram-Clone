@@ -21,12 +21,6 @@ A basic clone of the popular Instagram app, built using **Java** and **Android S
 - RecyclerView
 - ConstraintLayout
 ---
-
-## 🚀 Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/madhavgadge01/Instagram.git
 ## 👨‍💻 Author
 -[Madhav Gadge](https://github.com/madhavgadge)
 -[Linkdin](https://www.linkedin.com/in/madhav-gadge-610177343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
@@ -36,8 +30,13 @@ A basic clone of the popular Instagram app, built using **Java** and **Android S
 
 ## 📸 Screenshots
 
-| Home Feed | Profile Page |
-|-----------|--------------|
-| ![Home](screenshots/home.png) | ![Profile](screenshots/profile.png) |
+| Home Feed | Explorer Page |Profile Page |
+|-----------|--------------|---------------|
+| ![Home](insta_front.png) | ![Explorer](instaexpro.png) |![Profile](intapro.png) |
 
-> Add screenshots in the `screenshots/` folder in your repo.
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/madhavgadge01/Instagram.git
+
